@@ -1,0 +1,181 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #081c24;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+ 
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  
+  /* Estilos para la clase social-menu */
+.social-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-menu a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-menu img {
+  width: 30px;
+  height: 30px;
+}
+  /* Estilos para el menú de navegación */
+
+  nav {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+    position: relative;
+  }
+  
+  nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav a:hover::before {
+    background-color: #ffffff;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    color: #333333;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el formulario de disponibilidad */
+  #codigoPostal {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #081c24;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los testimonios */
+  blockquote {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #d9edf7;
+    border-left: 5px solid #31708f;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #081c24;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  /* Estilos para la sección de contacto */
+  #contacto {
+    text-align: center;
+  }
+  
+  #contactForm {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #contactForm div {
+    margin-bottom: 10px;
+  }
+  
+  #contactForm label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  #contactForm input,
+  #contactForm textarea {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #contactForm button {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 16px;
+    background-color: #081c24;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* Estilos para la sección de testimonios */
+#testimonios {
+  text-align: center;
+}
+
+.testimonio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.testimonio img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonio blockquote {
+  flex: 1;
+  max-width: 400px;
+  text-align: left;
+  margin: 0;
+}
+
+.testimonio p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonio cite {
+  font-style: italic;
+}

@@ -1,0 +1,113 @@
+<html>
+<head>
+  <title>Conéctate a la velocidad del futuro</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    
+    <h1>¡Conéctate a la velocidad del futuro con nuestros servicios de Internet!</h1>
+    <img src="imagenes/header.jpg" alt="Conexión rápida y confiable">
+    <p>Conéctate sin límites</p>
+
+    <!-- Menú de redes sociales -->
+    <div class="social-menu">
+      <a href="https://www.facebook.com/tu_pagina" target="_blank"><img src="imagenes/pngwing.com.png" alt="Facebook"></a>
+      <a href="https://www.twitter.com/tu_pagina" target="_blank"><img src="imagenes/twiiter.png" alt="Twitter"></a>
+      <a href="https://www.instagram.com/tu_pagina" target="_blank"><img src="imagenes/instagramt.png" alt="Instagram"></a>
+  </header>
+
+  <nav>
+    <a href="#velocidad">Velocidad y confiabilidad</a>
+    <a href="#planes">Planes y precios</a>
+    <a href="#beneficios">Beneficios del servicio</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#contratacion">Proceso de contratación</a>
+    <a href="#contacto">Contacto y soporte técnico</a>
+  </nav>
+
+  <section id="velocidad">
+    <h2>Velocidad y confiabilidad</h2>
+    <p>Nuestros servicios de Internet inalámbrico y fibra óptica te ofrecen una conexión ultrarrápida y confiable en todo momento. ¡Navega sin interrupciones y sin límites!</p>
+    <p>Tenemos un ancho de banda increíblemente rápido y una baja latencia, lo que significa que podrás descargar archivos, ver videos en streaming y jugar en línea sin retrasos.</p>
+  </section>
+
+  <section id="planes">
+    <h2>Planes y precios</h2>
+    <p>Ofrecemos diferentes planes de Internet para adaptarnos a tus necesidades. Consulta nuestra tabla comparativa para ver la velocidad, el precio mensual y los beneficios adicionales de cada plan.</p>
+    <p>Ingresa tu código postal o dirección para verificar la disponibilidad en tu área:</p>
+    <input type="text" id="codigoPostal" placeholder="Ingresa tu código postal">
+    <button onclick="verificarDisponibilidad()">Consultar disponibilidad</button>
+  </section>
+
+  <section id="beneficios">
+    <h2>Beneficios del servicio</h2>
+    <ul>
+      <li>Streaming sin interrupciones</li>
+      <li>Descargas rápidas</li>
+      <li>Juegos en línea sin retrasos</li>
+      <li>Soporte técnico 24/7</li>
+      <li>Conexión estable incluso en áreas remotas</li>
+      <li>Puedes conectar múltiples dispositivos sin degradar el rendimiento</li>
+    </ul>
+  </section>
+
+  <section id="testimonios">
+    <h2>Testimonios de nuestros clientes</h2>
+    <div class="testimonio">
+      <img src="imagenes/mujer.png" alt="Perfil 1">
+      <blockquote>
+        <p>"Desde que contraté el servicio, mi conexión ha sido muy estable. ¡Recomendaría estos servicios a todos!"</p>
+        <cite>- María Gómez</cite>
+      </blockquote>
+    </div>
+    <div class="testimonio">
+      <img src="imagenes/hombre.jpg" alt="Perfil 2">
+      <blockquote>
+        <p>"La fibra óptica ultrarrápida ha transformado mi experiencia en línea. ¡Estoy muy satisfecho con el servicio!"</p>
+        <cite>- Juan Rodríguez</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="contratacion">
+    <h2>Proceso de contratación</h2>
+    <ol>
+      <li>Selecciona el plan que mejor se adapte a tus necesidades.</li>
+      <li>Completa el formulario de contratación en línea con tus datos personales.</li>
+      <li>Programaremos una cita para instalar el servicio en tu hogar.</li>
+      <li>Nuestro técnico realizará la instalación y te ayudará con la configuración.</li>
+      <li>¡Disfruta de tu nueva conexión rápida y confiable!</li>
+    </ol>
+    <p>¡No olvides consultar nuestras promociones especiales y descuentos disponibles!</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto y soporte técnico</h2>
+    <p>Ponte en contacto con nosotros si tienes alguna pregunta o necesitas soporte técnico. Estamos aquí para ayudarte las 24 horas del día, los 7 días de la semana.</p>
+    <form id="contactForm">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+      </div>
+      <div>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2023 Servicio Internet | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
